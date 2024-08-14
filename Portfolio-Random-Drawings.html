@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="/images/favicon.png">
+        <link href="Style-Random-Drawing.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+            .ihover {
+                background-color: black;
+                display: flex;
+                width: 100px;
+                height: 40px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: white;
+                transition: transform ease 300ms;
+                border: 10px;
+            }
+
+            .ihover:hover {
+                transform: translate(0, -10px);
+                background-color: rgb(55, 55, 56);
+                color: white;
+            }
+
+            .ihov {
+                width: 150px;
+                height: 40px;
+                border: 1px;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                transition: transform ease 300ms;
+            }
+            .ihov:hover {
+                transform: translate(0, -10px);
+                background-color: rgb(55, 55, 56);
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p id="Title">
+            <font size="+4">Sleep's Portfolio</font>
+        </p>
+        <center>
+            <button onclick="" class="ihov" id="i01">Games Design</button>
+            <button onclick="location.href='https://istired.github.io/Website-portfolio/Portfolio-home'" class="ihov" id="i01">Main Page</button>
+            <button onclick="location.href='https://istired.github.io/Website-portfolio/Portfolio-Project-1'" class="ihov" id="i02">First OC</button>
+            <button onclick="location.href='https://istired.github.io/Website-portfolio/Portfolio-Random-Drawings'" class="ihov" id="i02">Random Drawings</button>
+        </center>
+        <center>
+            <p id="i01">First Drawing
+                <br>
+                This is a drawing of Kono Sakura from Horimiya(anime) but in my style of <br>
+                pixels
+            </p>
+            <img src="./Random Drawings/kono.png" style="width: 800px; border-radius: 20px;">
+        </center>
+        <center>
+            <p id="i02">
+                Another drawing I made to do with horimiya 
+            </p>
+            <img src="./Random Drawings/sqeeezzzeeee.png" style="width: 800px; border-radius: 20px;">
+        </center>
+    </body>
+</html>

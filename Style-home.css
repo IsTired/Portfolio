@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+
+}   #Title {
+    color: white;
+    font-family: 'Noto Sans JP';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+}   #Info {
+    color: white;
+    font-family: 'Open Sans';
+    width: 500px;
+
+    position: relative;
+}   #button-me {
+    position: relative;
+    
+    border: 1px;
+    border-radius: 10px;
+} #i03 {
+    color: white;
+    font-family: 'Noto Sans JP';
+}
