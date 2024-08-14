@@ -11,8 +11,9 @@ body {
     top: 10px;
 }   #Info {
     color: white;
+    font-size: 17px;
     font-family: 'Open Sans';
-    width: 500px;
+    width: 75%;
 
     position: relative;
 }   #button-me {
@@ -20,7 +21,4 @@ body {
     
     border: 1px;
     border-radius: 10px;
-} #i03 {
-    color: white;
-    font-family: 'Noto Sans JP';
 }
